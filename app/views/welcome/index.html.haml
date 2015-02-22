@@ -1,1 +1,34 @@
-%h1 This is the welcome placeholder
+#banner
+	.banner_content
+		%h1 StickerNote
+		%p Your online Sticker Notebook. Never forget your idea again.
+		%hr/
+		%button= link_to "Get Started", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The best sticker notebook application that I have ever used. "
+		%p.name -- Micheal Owen
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%i.fa.fa-pencil
+				%h2 Sticker
+			.callout
+				%i.fa.fa-rocket
+				%h2 Rocket
+			.callout
+				%i.fa.fa-thumbs-up
+				%h2 Thumb Up
+
+#bottom_cta
+	.wrapper
+		%h2 Best of the best!
+		%p I want you to get started! Becasue this is the best sticker notebook app you ever seen.
+		%button= link_to "Click here!", new_user_registration_path
+
+%footer
+	%p &copy; Weila Corporation
+
